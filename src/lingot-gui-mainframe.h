@@ -45,6 +45,8 @@ typedef struct _lingot_main_frame_t {
     GtkCheckMenuItem* view_strobe_disc_item;
     GtkCheckMenuItem* view_none_item;
     GtkWidget* spectrum_frame;
+    GtkWidget* gauge_frame;
+
 
     GtkWidget* labelsbox;
     GtkLabel* freq_label;
